@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/cuantosfuimos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/cuantossomosfuimos"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@android:drawable/title_bar"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/calle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <ImageView
+    		android:src="@android:drawable/divider_horizontal_dark"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:scaleType="fitXY"
+    		android:paddingLeft="5dp"
+    		android:paddingRight="5dp"
+    		android:paddingBottom="2dp"
+    		android:paddingTop="2dp" />
+
+        <TextView
+            android:id="@+id/numpersonas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <Button
+	        android:id="@+id/buscarBoton"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:text="@string/buscar"
+	        android:layout_marginBottom="2dp" />
+        
+	    <DatePicker
+	        android:id="@+id/datePicker"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

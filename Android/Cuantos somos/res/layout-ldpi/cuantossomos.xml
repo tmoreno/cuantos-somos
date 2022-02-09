@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fondo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo_vacio"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <TextView
+        android:id="@+id/posicionTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/placa"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/obteniendoPosicion"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/cuantosSomosButton"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignLeft="@+id/posicionTextView"
+        android:layout_alignRight="@+id/posicionTextView"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/boton"
+        android:enabled="false"
+        android:text="@string/cuantossomos" />
+
+    <Button
+        android:id="@+id/somosButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/posicionTextView"
+        android:layout_below="@+id/posicionTextView"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/boton"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/twitterButton"
+        android:contentDescription="@string/twitear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/somosButton"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/boton"
+        android:src="@drawable/boton_twitter"
+        android:visibility="gone" />
+    
+    <RelativeLayout 
+        android:id="@+id/personaLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+        
+        <ImageView 
+            android:id="@+id/personaImage"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="3dp"
+        	android:contentDescription="@string/persona"/>
+        
+        <ImageView 
+            android:id="@+id/personaParadaImage"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="3dp"
+        	android:contentDescription="@string/persona"
+        	android:src="@drawable/persona_pies_juntos"
+        	android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/variacionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/variacionlabel"
+            android:gravity="right"
+            android:textColor="#000000" />
+        
+        <ImageView 
+            android:id="@+id/indicadorImage"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="35dp"
+        	android:layout_marginLeft="4dp"
+        	android:contentDescription="@string/indicador"/>
+    </RelativeLayout>
+
+</RelativeLayout>

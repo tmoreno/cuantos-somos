@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">How many are we?</string>
+    <string name="aceptar">Accept</string>
+    <string name="cancelar">Cancel</string>
+    <string name="buscar">Search</string>
+    <string name="search_hint">Search place</string>
+    
+    <string name="twitear">Send tweet</string>
+    <string name="enviarTweet">We are %1$d on #%2$s</string>
+    <string name="tweetEnviado">Tweet sent</string>
+    <string name="desconectar">Remove Twitter account</string>
+    <string name="desconectarPregunta">Do you want to stop using \"How many are we?\" to send tweets?</string>
+    <string name="espere">Please wait</string>
+    <string name="borrarPosicion">Delete %1$s?</string>
+    <string name="borrarNumPersonasPosicion">Delete the number of persons at %1$s?</string>
+    
+    <string name="indicador">indicator</string>
+    <string name="persona">people</string>
+    
+    <string name="siguenos">Follow us</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="web">Web</string>
+    <string name="ayudadifundir">To improve the number of people we need more users. Help us to increase the number of users.</string>
+    
+    <string name="obteniendoPosicion">OBTAINING POSITION&#8230;</string>
+    <string name="posicionDesconocida">UNKNOWN POSITION</string>
+    <string name="cuantossomos">How many are we?</string>
+    <string name="cuantossomosfuimos">How many we were?</string>
+    <string name="lugares">Places</string>
+    <string name="acercade">About</string>
+    <string name="numeroPersonas">¡¡¡ We are %1$s people !!!</string>
+    <string name="unaPersona">1 person</string>
+    <string name="nPersonas">%1$s persons</string>
+    
+    <string name="noHayDatos">No data</string>
+    
+    <string name="gpsDesactivado">The GPS is off, turn it to get to know your position</string>
+    <string name="obtenerPosicionError">Can not get the position in which you are</string>
+    <string name="conexionError">Unable to share your location with other people</string>
+    <string name="buscarError">Unable to execute search</string>
+    <string name="noCuentasTwitterError">To send a tweet using \"How many are we?\" you have to give permission</string>
+    <string name="enviarTweetError">Unable to send the tweet</string>
+    <string name="tweetDuplicadoError">You can not post tweets equals in so little time</string>
+    
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">¿Cuántos somos?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="buscar">Buscar</string>
+    <string name="search_hint">Buscar lugar</string>
+    
+    <string name="twitear">Enviar tweet</string>
+    <string name="enviarTweet">Somos %1$d en #%2$s</string>
+    <string name="tweetEnviado">Tweet enviado</string>
+    <string name="desconectar">Quitar cuenta de Twitter</string>
+    <string name="desconectarPregunta">¿Quieres dejar de usar \"¿Cuántos somos?\" para enviar tweets?</string>
+    <string name="espere">Espere por favor</string>
+    <string name="borrarPosicion">¿Borrar %1$s?</string>
+    <string name="borrarNumPersonasPosicion">¿Borrar el número de personas del día %1$s?</string>
+    
+    <string name="indicador">indicador</string>
+    <string name="persona">persona</string>
+    
+    <string name="siguenos">Síguenos en</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="web">Web</string>
+    <string name="ayudadifundir">Para que el número de personas que te aparece sea más real necesitamos que haya más gente usando ¿Cuántos somos?. Ayúdanos a aumentar el número de usuarios.</string>
+    
+    <string name="obteniendoPosicion">OBTENIENDO POSICIÓN&#8230;</string>
+    <string name="posicionDesconocida">POSICIÓN DESCONOCIDA</string>
+    <string name="cuantossomos">¿Cuántos somos?</string>
+    <string name="cuantossomosfuimos">¿Cuántos fuimos?</string>
+    <string name="lugares">Lugares</string>
+    <string name="acercade">Acerca de</string>
+    <string name="numeroPersonas">¡¡¡ Ya somos %1$s !!!</string>
+    <string name="unaPersona">1 persona</string>
+    <string name="nPersonas">%1$s personas</string>
+    
+    <string name="noHayDatos">No hay datos</string>
+    
+    <string name="gpsDesactivado">El GPS está desactivado, actívalo para poder conocer tu posición</string>
+    <string name="obtenerPosicionError">No se puede obtener la posición en la que te encuentras</string>
+    <string name="conexionError">No se ha podido compartir tu posición con el resto de personas</string>
+    <string name="buscarError">No se ha podido realizar la búsqueda</string>
+    <string name="noCuentasTwitterError">Para enviar un tweet usando \"¿Cuántos somos?\" tienes que darnos permiso</string>
+    <string name="enviarTweetError">No se ha podido enviar el tweet</string>
+    <string name="tweetDuplicadoError">No puedes enviar tweets iguales en tan poco tiempo</string>
+    
+</resources>

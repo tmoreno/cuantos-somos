@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tabsLayout" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:gravity="center" 
+	android:orientation="vertical"
+	android:background="@drawable/tab_bg_selector">
+	
+    <ImageView android:id="@+id/tabsImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cuantossomos" />
+
+	<TextView android:id="@+id/tabsText" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingBottom="4dp"
+		android:textSize="10dip" 
+		android:textStyle="bold"
+		android:textColor="@drawable/tab_text_selector" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Context>
+
+	<Resource 
+		name="jdbc/cuantossomos" 
+		auth="Container"
+		type="javax.sql.DataSource" 
+		username="cuantossomos" 
+		password="cuantossomos"
+		driverClassName="com.mysql.jdbc.Driver" 
+		url="jdbc:mysql://192.168.26.130:3306/cuantossomos"
+		maxActive="2" 
+		maxIdle="2" />
+
+
+
+		
+</Context>

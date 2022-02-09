@@ -1,0 +1,21 @@
+"conexionErrorTitulo" = "Error de conexión";
+"conexionErrorDesc" = "La aplicación no se ha podido comunicar con el servidor.";
+
+"localizacionErrorTitulo" = "Error de localización";
+"localizacionErrorDesc" = "La aplicación no puede obtener la posición en la que te encuentras.";
+
+"twitterError" = "No puedes enviar un tweet ahora, asegúrate de que tienes acceso a internet y de que tienes al menos una cuenta de Twitter configurada";
+
+"posicionDesconocida" = "POSICIÓN DESCONOCIDA";
+"obteniendoPosicion" = "OBTENIENDO POSICIÓN...";
+"cuantossomos" = "¿Cuántos somos?";
+"cuantosfuimos" = "¿Cuántos fuimos?";
+"acercade" = "Acerca de";
+"siguenos" = "Síguenos en";
+"ayudadifundir" = "Para que el número de personas que te aparece sea más real necesitamos que haya más gente usando ¿Cuántos somos?. Ayúdanos a aumentar el número de usuarios.";
+"somos" = "¡¡¡ Ya somos %@ !!!";
+"somosEn" = "Somos %@ en #%@";
+"lugares" = "Lugares";
+"buscar" = "Buscar";
+"unapersona" = "1 persona";
+"npersonas" = "%@ personas";

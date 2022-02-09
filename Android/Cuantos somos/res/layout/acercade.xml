@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent">
+  
+    <TextView   
+  	    android:layout_width="wrap_content"  
+  	    android:layout_height="wrap_content"
+  	    android:text="@string/siguenos"
+  	    android:textAppearance="?android:attr/textAppearanceMedium"
+  	    android:textColor="@android:color/darker_gray"
+  	    android:paddingLeft="4dp"
+  	    android:paddingTop="8dp" />
+    
+  	<ListView android:id="@+id/siguenosListView"  
+  	    android:layout_width="fill_parent"  
+  	    android:layout_height="wrap_content" />
+  	
+  	<TextView   
+  	    android:layout_width="wrap_content"  
+  	    android:layout_height="wrap_content"
+  	    android:text="@string/ayudadifundir"
+  	    android:textAppearance="?android:attr/textAppearanceMedium"
+  	    android:textColor="@android:color/darker_gray"
+  	    android:paddingTop="4dp"
+  	    android:gravity="center" />
+</LinearLayout>

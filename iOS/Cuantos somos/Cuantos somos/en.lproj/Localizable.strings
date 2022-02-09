@@ -1,0 +1,21 @@
+"conexionErrorTitulo" = "Connection error";
+"conexionErrorDesc" = "The application failed to connect with the server.";
+
+"localizacionErrorTitulo" = "Location error";
+"localizacionErrorDesc" = "The application can not get the position where you are.";
+
+"twitterError" = "You can't send a tweet right now, make sure your device has an internet connection and you have at least one Twitter account setup";
+
+"posicionDesconocida" = "UNKNOWN POSITION";
+"obteniendoPosicion" = "OBTAINING POSITION...";
+"cuantossomos" = "How many we are?";
+"cuantosfuimos" = "How many we were?";
+"acercade" = "About";
+"siguenos" = "Follow us";
+"ayudadifundir" = "To improve the number of people we need more users. Help us to increase the number of users.";
+"somos" = "We are %@ people !!!";
+"somosEn" = "We are %@ on #%@";
+"lugares" = "Places";
+"buscar" = "Search";
+"unapersona" = "1 person";
+"npersonas" = "%@ people";
